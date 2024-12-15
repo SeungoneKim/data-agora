@@ -1,28 +1,3 @@
-<p align="center">
-  <img src="assets/agorabench.png" alt="Agora-Logo" style="width: 50%; display: block; margin: auto;">
-</p>
-
-<h1 align="center">🏛️ Agora 🏛️</h1>
-
-<p align="center">
-  <a href="https://arxiv.org/abs/2412.03679"><img src="https://img.shields.io/badge/arXiv-2412.03679-b31b1b.svg" alt="arXiv"></a>
-  <a href="https://huggingface.co/Data-Agora"><img src="https://img.shields.io/badge/Hugging%20Face-Organization-ff9d00" alt="Hugging Face Organization"></a>
-  <a href="https://github.com/neulab/data-agora/blob/main/LICENSE"><img src="https://img.shields.io/github/license/neulab/data-agora.svg" alt="License"></a>
-  <a href="https://pypi.org/project/data-agora/"><img src="https://badge.fury.io/py/data-agora.svg" alt="PyPI version"></a>
-</p>
-
-<p align="center">
-  ⚡ A repository for generating synthetic data with LLMs & evaluating LLMs' data generation capabilities 🚀 ⚡ <br>
-</p>
-
-
-## **Latest News** 🔥
-
-- [2024/12] We release the **Agora** and **Agora-Bench**!
-  - **Agora-Bench** covers 9 settings, measuring data generation capabilities across 3 domains and 3 data generation methods.
-  - **Agora** is an easily customizable framework for data generation with LLMs.
-  - Checkout our [dataset](https://huggingface.co/Data-Agora), [checkpoints](https://huggingface.co/Data-Agora), [leaderboard](https://huggingface.co/spaces/prometheus-eval/BiGGen-Bench-Leaderboard), and the [code](https://github.com/neulab/data-agora)!
-
 ## What does Agora mean?
 
 <p align="center">
@@ -301,18 +276,3 @@ result = agora.run(num_instances=10000, num_threads=16, output_file="./results/f
 print(result[0])
 ```
 
-## Citation
-
-If you find our work useful, please consider citing our paper!
-
-```bibtex
-@misc{kim2024evaluating,
-      title={Evaluating Language Models as Synthetic Data Generators}, 
-      author={Seungone Kim and Juyoung Suk and Xiang Yue and Vijay Viswanathan and Seongyun Lee and Yizhong Wang and Kiril Gashteovski and Carolin Lawrence and Sean Welleck and Graham Neubig},
-      year={2024},
-      eprint={2412.03679},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2412.03679}, 
-}
-```
